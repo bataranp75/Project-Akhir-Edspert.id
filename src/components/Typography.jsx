@@ -15,8 +15,10 @@ const Typography = (props) => {
                 "text-[20px]": size === "title",
                 "text-[16px]": size === "subtitle",
                 "text-[12px]": size === "body",
-                "font-semibold": size === "title"
-                
+                "font-semibold": size === "title",
+                "text-xs": size === "conf",
+                "ml-[224px]": size === "price",
+
             }
         )}>
             {children}
